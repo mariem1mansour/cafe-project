@@ -128,4 +128,20 @@ header nav ul {
   line-height: 1.9em;
 }
 
+.container{
+  margin: auto;
+max-width: 1000px;
+display: block;
+}
+.feature{
+  float: left;
+  width: 50%;
+}
+.features{
+  padding: 100px 0;
+  overflow: auto;
+  text-align: center;
+}
+
+
 
