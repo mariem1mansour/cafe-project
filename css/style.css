@@ -142,6 +142,12 @@ display: block;
   overflow: auto;
   text-align: center;
 }
+/* picture of a person */
+.picture{
+  height: 500px;
+  background: url("../images/image.png") center center/cover;
+}
+
 
 
 
