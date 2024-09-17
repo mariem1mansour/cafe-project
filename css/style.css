@@ -194,17 +194,59 @@ header nav ul {
   padding-bottom: 30px;
   text-align: center;
 }
+
 /* localisation */
-.container_localisation{
+.container_localisation {
   height: 700px;
   padding-top: 180px;
   padding-bottom: 180px;
 
-max-width: 1000px;
-margin: auto;
+  max-width: 1000px;
+  margin: auto;
 }
-.localisation_info{
+
+.localisation_info {
   float: left;
-width: 50%;
+  width: 50%;
 }
+
 /* formulaire */
+.container_form {
+  margin: auto;
+  height: 700px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.formulaire {
+  max-width: 700px;
+  margin: auto;
+}
+
+.element {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.container_form h1 {
+  text-align: center;
+}
+
+.formulaire form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.container_form button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
