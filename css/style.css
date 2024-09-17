@@ -13,6 +13,8 @@
   padding: 15px 25px;
   font-weight: 700;
   font-size: 14px;
+  outline: none;
+  border: 0px;
 }
 
 .btn-primary {
@@ -27,19 +29,25 @@
 
 }
 
-.btn-secondary {
+.btn-dark {
   background: #222;
   color: white;
 }
 
-.btn-secondary:hover {
+.btn-dark:hover {
   background: white;
   color: #222;
+  border: solid 1px #222;
 }
 
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .seperator {
@@ -159,13 +167,13 @@ header nav ul {
 }
 
 /* picture of a person */
-.picture {
+/* .picture {
   height: 500px;
   background: url("../images/image.png") center center/cover;
-}
+} */
 
 /* reservation */
-.reservation-container {
+/* .reservation-container {
   height: 400px;
   display: block;
   margin: auto;
@@ -184,16 +192,16 @@ header nav ul {
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
-}
+} */
 
 /* footer */
-.footer {
+/* .footer {
   background-color: #222;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-}
+} */
 
 /* localisation */
 .container_localisation {
@@ -249,4 +257,20 @@ textarea {
 .container_form button {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+
+
+
+
+/* personne */
+.person {
+  height: 500px;
+  background: url("../images/image.png") center center/cover;
+}
+
+/* reservation */
+.reservation {
+  padding: 100px 0px;
+  text-align: center;
 }
