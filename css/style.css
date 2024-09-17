@@ -14,17 +14,30 @@
   font-weight: 700;
   font-size: 14px;
 }
-.btn-primary{
+
+.btn-primary {
   background: white;
   color: #222;
-  
+
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
   background: #222;
   color: white;
-  
+
 }
-.my-10{
+
+.btn-secondary {
+  background: #222;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #222;
+}
+
+.my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -128,26 +141,47 @@ header nav ul {
   line-height: 1.9em;
 }
 
-.container{
+.container {
   margin: auto;
-max-width: 1000px;
-display: block;
+  max-width: 1000px;
+  display: block;
 }
-.feature{
+
+.feature {
   float: left;
   width: 50%;
 }
-.features{
+
+.features {
   padding: 100px 0;
   overflow: auto;
   text-align: center;
 }
+
 /* picture of a person */
-.picture{
+.picture {
   height: 500px;
   background: url("../images/image.png") center center/cover;
 }
 
+/* reservation */
+.reservation-container {
+  height: 400px;
+  display: block;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
 
+.reservation p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
 
+}
 
+.reservation {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
