@@ -4,30 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>contacter</title>
 </head>
 
 <body>
-  <header class="header"></header>
-    <nav>
-      <h1><a href="./index.html">CAFE MANSOUR</a></h1>
-      <ul>
-        <li><a class="active" href="./index.html">Acceuil</a></li>
-        <li><a href="./where.html">Nous touver</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+  <nav>
+    <h1><a href="./index.html">CAFE MANSOUR</a></h1>
+    <ul>
+      <li><a href="./index.html">Acceuil</a></li>
+      <li><a href="./where.html">Nous touver</a></li>
+      <li><a class="active" href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
   </header>
-  <section>
+  <section class="container_form">
     <h1>Une question ❓ Contactez nous</h1>
-    <form action="">
-      <label for="x">nom</label>
+    <form  class="formulaire" action="">
+      <label class="element" for="x">nom</label>
       <input type="text" name="nom" id="x">
-      <label for="y">email</label>
+      <label class="element" for="y">email</label>
       <input type="email" name="email" id="y">
-      <label for="">questions et remarques</label>
-      <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-      <button type="submit">Soumettre</button>
+      <label class="element" for="z">questions et remarques</label>
+      <textarea name="" id="z" cols="30" rows="10"></textarea>
+      <button class="btn btn-secondary" type="submit">Soumettre</button>
     </form>
   </section>
 
