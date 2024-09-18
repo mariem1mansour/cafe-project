@@ -7,6 +7,12 @@
 }
 
 /* general */
+.container {
+  margin: auto;
+  max-width: 1000px;
+  display: block;
+}
+
 .btn {
   display: inline-block;
   border-radius: 30px;
@@ -149,11 +155,7 @@ header nav ul {
   line-height: 1.9em;
 }
 
-.container {
-  margin: auto;
-  max-width: 1000px;
-  display: block;
-}
+
 
 .feature {
   float: left;
@@ -274,14 +276,57 @@ textarea {
   padding: 100px 0px;
   text-align: center;
 }
+
 /* footer */
-.footer{
+.footer {
   background-color: #222;
-  color:white;
+  color: white;
   text-align: center;
   padding: 20px;
 
 }
-.footer p{
+
+.footer p {
   margin: 0;
+}
+
+/* WHERE */
+.where {
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 40%;
+  border-radius: 10px;
+
+  box-shadow: 0 10px 10px 10px rgba(121, 121, 121, 0.65);
+}
+
+.where-img:hover {
+  filter: brightness(110%);
+  transform: translate(0, 0.7rem);
+}
+
+.where-text {
+  float: right;
+  width: 40%;
+}
+
+.where-span {
+  display: inline-block;
+  color: white;
+  border-radius: 100%;
+  width: 30px;
+  text-align: center;
+}
+
+.where-purple {
+  background: purple;
+}
+
+.where-yellow {
+  background: #de910d;
 }
