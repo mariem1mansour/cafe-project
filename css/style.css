@@ -206,7 +206,7 @@ header nav ul {
 } */
 
 /* localisation */
-.container_localisation {
+/* .container_localisation {
   height: 700px;
   padding-top: 180px;
   padding-bottom: 180px;
@@ -218,10 +218,10 @@ header nav ul {
 .localisation_info {
   float: left;
   width: 50%;
-}
+} */
 
 /* formulaire */
-.container_form {
+/* .container_form {
   margin: auto;
   height: 700px;
   padding-top: 100px;
@@ -231,8 +231,8 @@ header nav ul {
 .formulaire {
   max-width: 700px;
   margin: auto;
-}
-
+} */
+/* 
 .element {
   display: block;
   font-weight: bold;
@@ -260,7 +260,7 @@ textarea {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+ */
 
 
 
@@ -329,4 +329,33 @@ textarea {
 
 .where-yellow {
   background: #de910d;
+}
+/* contact */
+.contact{
+padding: 180px 0px;
+
+min-height: 100vh;
+}
+
+.contact-label{
+display: block;
+margin: 10px;
+}
+.contact-input,textarea{
+display: block;
+padding: 15px;
+width: 100%;
+border: 1px solid #ddd;
+border-radius: 3px;
+outline: none;
+}
+.contact button{
+  margin: 20px;
+}
+.contact-form-container{
+  max-width: 600px;
+  margin: auto;
+}
+textarea{
+  min-height: 80px;
 }
