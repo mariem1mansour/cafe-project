@@ -92,7 +92,7 @@ a {
   line-height: 1.7em;
 }
 
-header nav li a {
+header nav ul li a {
   color: white;
   padding: 20px;
   display: block;
@@ -109,11 +109,7 @@ header nav h1 {
   margin-bottom: 0;
 }
 
-ul li a {
-  float: right;
-  margin-right: 10px;
 
-}
 
 header nav ul li {
   float: left;
@@ -138,6 +134,7 @@ header nav ul {
 }
 
 .vp-content {
+  padding: 20px;
   padding-top: 150px;
   max-width: 600px;
   color: white;
@@ -146,7 +143,7 @@ header nav ul {
 }
 
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .vp-content p {
@@ -155,15 +152,16 @@ header nav ul {
   line-height: 1.9em;
 }
 
-
+/* feature */
 
 .feature {
   float: left;
   width: 50%;
+
 }
 
 .features {
-  padding: 100px 0;
+  padding: 100px 20px;
   overflow: auto;
   text-align: center;
 }
@@ -273,7 +271,7 @@ textarea {
 
 /* reservation */
 .reservation {
-  padding: 100px 0px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -283,6 +281,7 @@ textarea {
   color: white;
   text-align: center;
   padding: 20px;
+
 
 }
 
@@ -301,7 +300,6 @@ textarea {
   float: left;
   width: 40%;
   border-radius: 10px;
-
   box-shadow: 0 10px 10px 10px rgba(121, 121, 121, 0.65);
 }
 
@@ -330,32 +328,38 @@ textarea {
 .where-yellow {
   background: #de910d;
 }
+
 /* contact */
-.contact{
-padding: 180px 0px;
+.contact {
+  padding: 180px 0px;
 
-min-height: 100vh;
+  min-height: 100vh;
 }
 
-.contact-label{
-display: block;
-margin: 10px;
+.contact-label {
+  display: block;
+  margin: 10px;
 }
-.contact-input,textarea{
-display: block;
-padding: 15px;
-width: 100%;
-border: 1px solid #ddd;
-border-radius: 3px;
-outline: none;
+
+.contact-input,
+textarea {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: none;
 }
-.contact button{
+
+.contact button {
   margin: 20px;
 }
-.contact-form-container{
+
+.contact-form-container {
   max-width: 600px;
   margin: auto;
 }
-textarea{
+
+textarea {
   min-height: 80px;
 }

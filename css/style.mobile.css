@@ -1,0 +1,75 @@
+/* header */
+header nav h1 {
+  float: none;
+
+  text-align: center;
+}
+
+header nav ul {
+  float: none;
+
+}
+
+header nav ul li {
+  float: none;
+}
+
+header nav ul li a {
+  text-align: center;
+  padding: 10px;
+
+}
+
+/* vp */
+.vp-content {
+
+  padding-top: 50px;
+
+}
+
+.vp-content h1 {
+  font-size: 2rem;
+}
+
+/* features */
+.feature {
+  float: none;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* footer */
+.footer p {
+  font-size: 0.7rem;
+}
+
+/* WHERE */
+.where {
+  padding: 80px 20px 50px 20px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: none;
+  width: 100%;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.where-text {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+.where-text h3 {
+  font-size: 1rem;
+}
+
+/* contact */
+.contact {
+  padding: 50px;
+
+  min-height: 100vh;
+}
